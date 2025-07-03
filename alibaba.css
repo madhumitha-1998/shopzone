@@ -1,0 +1,453 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#navbar {
+    width: 100%;
+
+    border: 1px black solid;
+    background-image: url(./image/banar.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+}
+
+#backDrop {
+    width: 100%;
+    background-color: rgba(13, 13, 14, 0.292);
+}
+
+#parentcon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#logo {
+    width: 200px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#alibabalogo {
+    width: 100%;
+    height: 23px;
+}
+
+/* #logoCon{
+    width: 250px;
+    display: flex;
+    justify-content: end;
+} */
+#locationCon {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#deliver {
+    width: 80px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#network {
+    width: 110px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#cart {
+    width: 50px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#signIn {
+    width: 60px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#account {
+    width: 150px;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cracc {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(220, 74, 21);
+}
+
+#usflag {
+    display: flex;
+}
+
+#flag {
+    width: 20px;
+    height: 20px;
+}
+
+#category {
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+#category1 {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+#category2 {
+    width: 680px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+@media(max-width:350px) {
+    #category2{
+        width: 250px;
+        gap: 6px;
+        font-size: small;
+    }
+}
+
+
+#allCategory {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#category1 div {
+
+    color: aliceblue;
+}
+
+#parent {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: end;
+}
+
+#child1 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+#learn {
+    width: 90%;
+    color: white;
+}
+
+#searchbar {
+    width: 50%;
+}
+
+#input { 
+    border: none;
+
+}
+
+
+#searchbox {
+    width: 97%;
+    color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+#camara {
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#searchbotton {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#frequantSearch{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+#frequant{
+    width: 80%;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+#essential{
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px white solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container1{
+    width: 100%;
+    background-color: rgb(83, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#business{
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+
+}
+#businessOff{
+    width: 330px;
+    height: 340px;
+    border-radius: 20px;
+    background-color: rgb(140, 56, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media(max-width:390px) {
+    #businessOff{
+        width: 270px;
+        padding: 25px;
+    }
+}
+#icon{
+    width: 300px;
+    height: 270px;
+    color: white;
+    background-color: rgb(140, 56, 56);
+}
+#icons{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(66, 13, 13);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#icon1{
+    width: 90%;
+    height: 90%;
+}
+#beautyzone{
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#zone1{
+    width: 95%;
+    
+}
+#headline{
+    width: 95%;
+   color: black;
+   padding: 5px;
+   
+}
+
+#head1{
+    width: 50%;
+    font-size: larger;
+}
+#head2{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    font-size: larger;
+    padding: 5px;
+     flex-wrap: wrap;
+}
+#head{
+    
+    display: flex;
+   justify-content: space-between;
+  
+    
+}
+
+@media(max-width:770px) {
+    #head2{
+        
+        font-size: small;
+    }
+    #head1{
+        font-size: small;
+    }
+}
+#beautypro{
+     width: 100%;
+     padding: 40px;
+}
+#beautyicon{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding: 10px;
+}
+#Bicon{
+    width: 130px;
+    height: 130px;
+    border: 1px gray solid;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#tree{
+     width: 120px;
+     display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5px;
+}
+#treeimg{
+    width: 40px;
+    height: 40px;
+}
+#environment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10px;
+}
+#businessopportunity{
+    width: 100%;
+    background-color: rgb(238, 231, 231);
+}
+#newarrival{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+     background-color: gainsboro;
+     flex-wrap: wrap;
+}
+#arrivals{
+    width: 430px;
+    background-color: gainsboro;
+    padding: 10px;
+   
+}
+#topranking{
+    width: 100%;
+    padding: 5px;
+     border-radius: 10px;
+}
+#topimg{
+    width: 100%;
+    border-radius: 15px;
+    background-color: white;
+}
+#ranking{
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+#autoimg{
+    width: 100%;
+    height: 320px;
+    padding: 10px;
+}
+#auto{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+#subimg{
+    width: 100%;
+    height: 150px;
+}
+#miniauto{
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+#auto1{
+    width: 30%;
+    height: 100%;
+}
+#miniautoimg{
+    width: 100%;
+    height: 100%;
+     border-radius: 15px;
+}
